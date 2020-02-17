@@ -1,0 +1,33 @@
+{
+  "name": "todos_api",
+  "version": "1.0.0",
+  "description": "Todo list using express mongo and node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "devstart": "nodemon index.js",
+    "scss": "node-sass --output-style compressed -o public scss",
+    "watch:css": "onchange \"scss\" -- npm run scss",
+    "watch:all": "npm-run-all -p devstart watch:css"
+  },
+  "keywords": [
+    "Node",
+    "Express",
+    "Mongo",
+    "API"
+  ],
+  "author": "Des Barrett",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "onchange": "^6.1.0"
+  }
+}

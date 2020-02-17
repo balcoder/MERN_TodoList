@@ -1,0 +1,19 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  padding: 4px 0;
+
+}
+
+.delete-todo {
+  color: #f66;
+  font-weight: bold;
+}
+.delete-todo:hover {
+  color: #f00;
+  font-size: 18px;
+  cursor: pointer;
+}
